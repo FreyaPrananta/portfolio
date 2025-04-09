@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Portfolio</title>
+        <link rel="stylesheet" href="assets/css/screen.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    </head>
+    <body id="bgGrad">
+        
+        <div id="part1">
+            <img id="bubbles" src="assets/imgs/home bubles.png">
+            <img id="ellipse" src="assets/imgs/Ellipse 1.png"  >
+            <h1 id="name">Freya Prananta</h1>
+            <p id="mainDesc">Interactive Digital Arts and Design Student<br>Things I’ve learned : C++, CSS, JS, HTML, Photoshop, Aseprite, Figma, Maya.</p>
+        </div>
+        <div id="part2">
+            <img id="cliff" src="assets/imgs/cliff.png" style="width: 21%;" >
+            <div id="aboutme"><h1 id="aboutTitle">A Bit About Me</h1>
+            <p id="aboutDesc"> Hi, my name is Freya, I’m currently studying at South East Technological University in Carlow as a 3d year.<br><br>
+                I am interested in art, mostly traditional art, using pencil. I also enjoy digital although i can’t say i’m better at those compared to traditional art.<br><br>               
+                Other than drawing i like to play strategy games, listen to music, and learn more about animals.</p></div>
+            <div><img id="biolandscape" src="assets/imgs/bio landscape1.png" style="width: 100%;" ></div>
+        </div>
+        
+        <div class="header" id="part3">
+          <div id="buttons">
+            <button onclick="changeDigital()">Digital Art</button>
+            <button onclick="changeTraditional()">traditional Art</button>
+            <button onclick="changePixel()">pixel Art</button>
+            <button onclick="changeVideo()">video</button>
+            <button onclick="changeThreeD()">3d Art</button>
+            <button onclick="changeWebsite()">Website</button>
+            <button onclick="changeGames()">Games</button>
+          </div>
+
+          <div id="digital">
+            <div class="row"> 
+              <div class="column">
+                  <img src="assets/imgs/apple.png" width="100%">
+              </div>
+
+              <div class="column">
+                  <img src="assets/imgs/character.png" width="100%">
+              </div>  
+
+              <div class="column">
+                <img src="assets/imgs/landscape.png" width="100%">
+              </div>
+
+              <div class="column">
+                
+              </div>
+
+            </div>
+          </div>  
+
+          <div id="traditional">
+            <div class="row"> 
+              <div class="column">
+                <img src="assets/imgs/monkey.png" width="100%">
+              </div>
+
+              <div class="column">
+                  <img src="assets/imgs/fox.png" width="100%">
+              </div> 
+
+              <div class="column">
+                <img src="assets/imgs/owl.png" width="100%">
+              </div>
+
+              <div class="column">
+              </div>
+
+            </div>
+          </div>  
+
+          <div id="pixel">
+            <div class="row"> 
+              <div class="column">
+                <img src="assets/imgs/frog.gif" width="100%">
+              </div>
+
+              <div class="column">
+                <img src="assets/imgs/blob.gif" width="100%">
+              </div>  
+
+              <div class="column">
+                  <img src="assets/imgs/duck.gif" width="100%">
+              </div>
+
+              <div class="column">
+              </div>
+
+            </div>
+          </div>  
+
+          <div id="video">
+            <div class="row"> 
+              <div class="column">
+                <video width="100%" controls>
+                  <source src="assets/imgs/Enseath.mp4" type="video/mp4">
+                  Your browser does not support HTML video.
+                </video>
+              </div>
+
+              <div class="column">
+                <video width="100%" controls>
+                  <source src="assets/imgs/Smoked the game.mp4" type="video/mp4">
+                  Your browser does not support HTML video.
+                </video>
+              </div>
+              <div class="column">
+                <video width="100%" controls>
+                  <source src="assets/imgs/The Search for The Dingle Ticket.mp4" type="video/mp4">
+                  Your browser does not support HTML video.
+                </video>
+              </div>
+            </div>
+          </div>  
+
+          <div id="threeD">
+            <div class="row"> 
+              <div class="column">
+              </div>
+                 
+              <div class="column">
+              </div>  
+
+              <div class="column">
+              </div>
+
+              <div class="column">
+              </div>
+              
+            </div>
+          </div>  
+      </div>  
+
+            
+        
+        <footer>
+            <div class="grid-container">
+                <div class="grid-item item13"><p id="footerTitle">Contact Me At :</p></div>
+                  <form action="https://api.web3forms.com/submit" method="POST" class="grid-item item14">
+
+                  <input type="hidden" name="access_key" value="301d12e9-0862-4a07-8833-4b184c2661f6">
+                    <p>Name</p>
+                  <input type="text" name="name" required>
+                  <p>Email</p>
+                  <input type="email" name="email" required>
+                  <p>Message</p>
+                  <textarea name="message" required></textarea>
+                  
+                  <input type="checkbox" name="botcheck" class="hidden" style="display: none;">
+                    <p></p>
+                  <button type="submit">Submit Form</button>
+              
+              </form>
+                <div class="item15"><a id="footgithub" href="https://github.com/FreyaPrananta" target="_blank"><img id="github" src="assets/imgs/github.png" > FreyaPrananta</a></div>
+                <div class="item16"><a id="footlinkedin" href="https://www.linkedin.com/in/freya-prananta-30b1072ba/"><img id="linkedin" src="assets/imgs/linkedin.png" href="https://github.com/FreyaPrananta"> FreyaPrananta</a></div>
+                
+            </div>
+        </footer>
+        
+        <script src="assets/js/script.js"></script>
+        
+    </body>
+</html>
